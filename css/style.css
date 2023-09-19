@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: rgb(42, 42, 42) !important;   
-    font-family: Arial, sans-serif; /* مثالی از فونت */
+    background-color: rgb(245, 245, 245) !important;
+    font-family: Arial, sans-serif;
+    /* مثالی از فونت */
 }
 
 .image {
@@ -35,30 +36,57 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.608);
+    background-color: rgba(255, 255, 255, 0.608);
     /* رنگ آبی کمرنگ با شفافیت */
     pointer-events: none;
     /* اجازه دسترسی به عناصر زیرین را نمی‌دهد */
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.sub-title{
-    color: #c5c5c5 !important;
+
+.sub-title {
+    color: #323232 !important;
     text-align: left;
 }
-hr,span,p{
-    color: white !important;
+
+hr,
+span,
+p {
+    color: rgb(96, 96, 96) !important;
 
 }
-ul{
-    color: white;
-    
+
+ul {
+    color: rgb(26, 26, 26);
+
 }
-.progress-bar{
+
+.progress-bar {
     background-color: blueviolet !important;
 }
-section{
-    background-color: black;
+
+section {
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    background-color: rgb(100, 9, 186);
+
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box span {
+    color: rgb(232, 232, 232) !important;
+
 }
